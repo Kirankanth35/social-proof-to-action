@@ -1,0 +1,11 @@
+Hypothesis,Statement,Result,Evidence
+H1,Early persuasive signals are positively associated with algorithmic amplification.,Supported,"coef=0.3551, p=0.0000"
+H2,Algorithmic amplification is positively associated with high-effort engagement outcomes.,Not supported,"coef=0.0116, p=0.2974"
+H3,Algorithmic amplification mediates the relationship between early persuasive signals and high-effort engagement outcomes.,Supported,indirect_effect=0.0041
+H4,Influencer authority positively moderates the relationship between early persuasive signals and algorithmic amplification.,Supported,"coef=0.2103, p=0.0000"
+H5,The indirect effect of early persuasive signals on high-effort engagement through algorithmic amplification is stronger for high-authority influencers.,Supported,"low=-0.0105, high=0.0541"
+H6,Reach is positively associated with high-effort engagement at low-to-moderate levels of visibility.,Supported,"coef=0.7436, p=0.0000"
+H7,The positive effect of reach on high-effort engagement exhibits diminishing marginal returns at higher levels of reach.,Supported,"coef=-0.0262, p=0.0048"
+H8,Persuasive power is positively associated with high-effort engagement under low-to-moderate visibility conditions.,Supported,"coef=0.0304, p=0.0210"
+H9,The positive effect of persuasive power on high-effort engagement weakens as algorithmic visibility increases.,Could not evaluate,Missing output
+H10,"Under very high visibility conditions, persuasive power is less predictive of high-effort engagement than under lower visibility conditions.",Supported,"coef=-0.3397, p=0.0000"
