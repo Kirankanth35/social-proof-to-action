@@ -1,4 +1,5 @@
-<img width="2001" height="1125" alt="slide1_preview" src="https://github.com/user-attachments/assets/416ecf7c-8701-4f45-8328-2ceb500b695c" />
+<img width="2001" height="1125" alt="slide1_preview" src="https://github.com/user-attachments/assets/7fb2f5d5-96ca-4164-ad13-2aeac1823013" />
+
 
 # social-proof-to-action
 Graduate research project on algorithmic amplification, influencer authority, and high-effort social media engagement
@@ -91,13 +92,14 @@ The outputs in this repository support five central findings:
 
 Selected visual outputs:
 
-<img width="646" height="350" alt="image" src="https://github.com/user-attachments/assets/a0ce661a-60bf-4286-b346-86c6fde833d9" />
+<img width="646" height="350" alt="image" src="https://github.com/user-attachments/assets/a9297a5c-11bb-4bd4-8703-c47aaabee2f8" />
 
-<img width="2366" height="1468" alt="rq1_a_path_moderation" src="https://github.com/user-attachments/assets/f60d7103-a197-471a-a9e6-08f58f9dda82" />
+<img width="2366" height="1468" alt="rq1_a_path_moderation" src="https://github.com/user-attachments/assets/bb7b277d-7aa8-4282-a0b0-bf0200158fab" />
 
-<img width="1760" height="1100" alt="rq2_diminishing_returns_curve" src="https://github.com/user-attachments/assets/175637f5-bb32-4e89-8941-487a11ed6825" />
+<img width="1760" height="1100" alt="rq2_diminishing_returns_curve" src="https://github.com/user-attachments/assets/bafde522-f646-4e1b-a3b9-82f8053259de" />
 
-<img width="1320" height="880" alt="rq3_high_visibility_effect" src="https://github.com/user-attachments/assets/cfaf439a-84e4-4fb6-a0d2-8cfefd053431" />
+<img width="1320" height="880" alt="rq3_high_visibility_effect" src="https://github.com/user-attachments/assets/37b2abc8-ac21-4520-8456-ff65f91ab229" />
+
 
 ---
 
@@ -273,7 +275,8 @@ flowchart TD
     N --> N2[Presentation Slides]
     N --> N3[Figures and Tables]
     N --> N4[GitHub Repository]
-<img width="4941" height="3958" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/6f9cd4dc-b63c-4550-bcb7-db534ba70f78" />
+<img width="4941" height="3958" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/bf465487-266b-4bf8-af59-e538230985ee" />
+
 -----
 
 ### Folder guide
