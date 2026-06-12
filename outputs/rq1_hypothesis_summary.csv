@@ -1,0 +1,5 @@
+hypothesis,statement,p_value,supported
+H1,Persuasive power positively predicts algorithmic amplification.,0.0,Yes
+H2,Algorithmic amplification positively predicts high-effort engagement.,0.2974380384846098,No
+H3,Authority moderates persuasive power -> amplification.,9.044261246838856e-66,Yes
+H4,Authority moderates amplification -> high-effort engagement.,2.0484435673857254e-17,Yes
