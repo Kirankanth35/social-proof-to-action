@@ -1,0 +1,39 @@
+# Variable Dictionary
+
+| Variable | Type | Construct | Description |
+|---|---|---|---|
+| post_id | int | ID | Unique post identifier (synthetic). |
+| influencer_id | int | ID | Unique influencer identifier (synthetic). |
+| post_datetime | datetime | Context | Timestamp of the post (synthetic). |
+| content_type | category | Context | Content type (informational/experiential/promotional). |
+| post_format | category | Context | Format (image/video/carousel). |
+| follower_count | int | Influencer Authority | Number of followers. |
+| authority_log | float | Influencer Authority | Natural log of follower_count. |
+| verified | 0/1 | Influencer Authority | Verification status indicator. |
+| account_age_years | float | Influencer Authority (control) | Account tenure in years. |
+| early_window_mins | int | Design | Minutes defining the early engagement window. |
+| early_likes | int | Persuasive Power (indicator) | Likes accrued during early window. |
+| early_comments | int | Persuasive Power (indicator) | Comments accrued during early window. |
+| early_shares | int | Persuasive Power (indicator) | Shares/reposts accrued during early window. |
+| early_total_engagement | int | Persuasive Power (derived) | Sum of early likes+comments+shares. |
+| early_engagement_velocity | float | Persuasive Power (derived) | Early total engagement per minute. |
+| early_comment_share_ratio | float | Persuasive Power (derived) | (early_comments+1)/(early_shares+1). |
+| persuasive_power_index | float | Persuasive Power (construct) | Weighted z-score composite of early_likes/comments/shares. |
+| reach | int | Algorithmic Amplification (indicator) | Unique users reached (visibility). |
+| impressions | int | Algorithmic Amplification (indicator) | Total impressions/views (visibility repetition). |
+| impressions_per_reach | float | Algorithmic Amplification (derived) | impressions / reach. |
+| exposure_persistence_hours | float | Algorithmic Amplification (derived) | Duration content continues to get shown (hours). |
+| reach_growth_rate | float | Algorithmic Amplification (derived) | Proxy for reach momentum (0–1). |
+| algorithmic_amplification_index | float | Algorithmic Amplification (construct) | Weighted composite of reach/impressions/persistence/impressions_per_reach. |
+| very_high_reach | 0/1 | Boundary | Indicator for top 5% reach posts. |
+| total_likes | int | Delayed Engagement / Low-effort engagement | Total likes (lifetime). |
+| total_comments | int | Delayed Engagement | Total comments (lifetime). |
+| total_shares | int | Delayed Engagement | Total shares (lifetime). |
+| link_clicks | int | Engagement Success (indicator) | Outbound link clicks. |
+| saves | int | Engagement Success (indicator) | Saves/bookmarks. |
+| profile_visits | int | Engagement Success (indicator) | Visits to creator profile attributable to the post. |
+| click_through_rate | float | Engagement Success (derived) | link_clicks / reach. |
+| save_rate | float | Engagement Success (derived) | saves / reach. |
+| engagement_success_index | float | Engagement Success (construct) | Composite of clicks/saves/profile_visits. |
+| low_effort_engagement | int | Engagement Type (low-effort) | Low-effort engagement proxy (likes). |
+| high_effort_engagement | int | Engagement Type (high-effort) | High-effort engagement proxy (clicks+saves+profile_visits). |
